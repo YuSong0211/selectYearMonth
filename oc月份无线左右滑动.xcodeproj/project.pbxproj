@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC0280592C9BCD8A0039D3CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0280582C9BCD8A0039D3CE /* AppDelegate.m */; };
+		BC02805C2C9BCD8A0039D3CE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC02805B2C9BCD8A0039D3CE /* SceneDelegate.m */; };
+		BC02805F2C9BCD8A0039D3CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC02805E2C9BCD8A0039D3CE /* ViewController.m */; };
+		BC0280622C9BCD8A0039D3CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC0280602C9BCD8A0039D3CE /* Main.storyboard */; };
+		BC0280642C9BCD940039D3CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC0280632C9BCD940039D3CE /* Assets.xcassets */; };
+		BC0280672C9BCD940039D3CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC0280652C9BCD940039D3CE /* LaunchScreen.storyboard */; };
+		BC02806A2C9BCD950039D3CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0280692C9BCD950039D3CE /* main.m */; };
+		BC0280742C9BCD960039D3CE /* oc________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0280732C9BCD960039D3CE /* oc________Tests.m */; };
+		BC02807E2C9BCD960039D3CE /* oc________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC02807D2C9BCD960039D3CE /* oc________UITests.m */; };
+		BC0280802C9BCD960039D3CE /* oc________UITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC02807F2C9BCD960039D3CE /* oc________UITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC0280702C9BCD960039D3CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC02804C2C9BCD8A0039D3CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC0280532C9BCD8A0039D3CE;
+			remoteInfo = "oc月份无线左右滑动";
+		};
+		BC02807A2C9BCD960039D3CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC02804C2C9BCD8A0039D3CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC0280532C9BCD8A0039D3CE;
+			remoteInfo = "oc月份无线左右滑动";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC0280542C9BCD8A0039D3CE /* oc月份无线左右滑动.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "oc月份无线左右滑动.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC0280572C9BCD8A0039D3CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC0280582C9BCD8A0039D3CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC02805A2C9BCD8A0039D3CE /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		BC02805B2C9BCD8A0039D3CE /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		BC02805D2C9BCD8A0039D3CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BC02805E2C9BCD8A0039D3CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BC0280612C9BCD8A0039D3CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC0280632C9BCD940039D3CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC0280662C9BCD940039D3CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC0280682C9BCD940039D3CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC0280692C9BCD950039D3CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC02806F2C9BCD950039D3CE /* oc月份无线左右滑动Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "oc月份无线左右滑动Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC0280732C9BCD960039D3CE /* oc________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "oc________Tests.m"; sourceTree = "<group>"; };
+		BC0280792C9BCD960039D3CE /* oc月份无线左右滑动UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "oc月份无线左右滑动UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC02807D2C9BCD960039D3CE /* oc________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "oc________UITests.m"; sourceTree = "<group>"; };
+		BC02807F2C9BCD960039D3CE /* oc________UITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "oc________UITestsLaunchTests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC0280512C9BCD8A0039D3CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC02806C2C9BCD950039D3CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC0280762C9BCD960039D3CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC02804B2C9BCD8A0039D3CE = {
+			isa = PBXGroup;
+			children = (
+				BC0280562C9BCD8A0039D3CE /* oc月份无线左右滑动 */,
+				BC0280722C9BCD960039D3CE /* oc月份无线左右滑动Tests */,
+				BC02807C2C9BCD960039D3CE /* oc月份无线左右滑动UITests */,
+				BC0280552C9BCD8A0039D3CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC0280552C9BCD8A0039D3CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC0280542C9BCD8A0039D3CE /* oc月份无线左右滑动.app */,
+				BC02806F2C9BCD950039D3CE /* oc月份无线左右滑动Tests.xctest */,
+				BC0280792C9BCD960039D3CE /* oc月份无线左右滑动UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC0280562C9BCD8A0039D3CE /* oc月份无线左右滑动 */ = {
+			isa = PBXGroup;
+			children = (
+				BC0280572C9BCD8A0039D3CE /* AppDelegate.h */,
+				BC0280582C9BCD8A0039D3CE /* AppDelegate.m */,
+				BC02805A2C9BCD8A0039D3CE /* SceneDelegate.h */,
+				BC02805B2C9BCD8A0039D3CE /* SceneDelegate.m */,
+				BC02805D2C9BCD8A0039D3CE /* ViewController.h */,
+				BC02805E2C9BCD8A0039D3CE /* ViewController.m */,
+				BC0280602C9BCD8A0039D3CE /* Main.storyboard */,
+				BC0280632C9BCD940039D3CE /* Assets.xcassets */,
+				BC0280652C9BCD940039D3CE /* LaunchScreen.storyboard */,
+				BC0280682C9BCD940039D3CE /* Info.plist */,
+				BC0280692C9BCD950039D3CE /* main.m */,
+			);
+			path = "oc月份无线左右滑动";
+			sourceTree = "<group>";
+		};
+		BC0280722C9BCD960039D3CE /* oc月份无线左右滑动Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BC0280732C9BCD960039D3CE /* oc________Tests.m */,
+			);
+			path = "oc月份无线左右滑动Tests";
+			sourceTree = "<group>";
+		};
+		BC02807C2C9BCD960039D3CE /* oc月份无线左右滑动UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC02807D2C9BCD960039D3CE /* oc________UITests.m */,
+				BC02807F2C9BCD960039D3CE /* oc________UITestsLaunchTests.m */,
+			);
+			path = "oc月份无线左右滑动UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC0280532C9BCD8A0039D3CE /* oc月份无线左右滑动 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC0280832C9BCD960039D3CE /* Build configuration list for PBXNativeTarget "oc月份无线左右滑动" */;
+			buildPhases = (
+				BC0280502C9BCD8A0039D3CE /* Sources */,
+				BC0280512C9BCD8A0039D3CE /* Frameworks */,
+				BC0280522C9BCD8A0039D3CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "oc月份无线左右滑动";
+			productName = "oc月份无线左右滑动";
+			productReference = BC0280542C9BCD8A0039D3CE /* oc月份无线左右滑动.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC02806E2C9BCD950039D3CE /* oc月份无线左右滑动Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC0280862C9BCD960039D3CE /* Build configuration list for PBXNativeTarget "oc月份无线左右滑动Tests" */;
+			buildPhases = (
+				BC02806B2C9BCD950039D3CE /* Sources */,
+				BC02806C2C9BCD950039D3CE /* Frameworks */,
+				BC02806D2C9BCD950039D3CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC0280712C9BCD960039D3CE /* PBXTargetDependency */,
+			);
+			name = "oc月份无线左右滑动Tests";
+			productName = "oc月份无线左右滑动Tests";
+			productReference = BC02806F2C9BCD950039D3CE /* oc月份无线左右滑动Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC0280782C9BCD960039D3CE /* oc月份无线左右滑动UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC0280892C9BCD960039D3CE /* Build configuration list for PBXNativeTarget "oc月份无线左右滑动UITests" */;
+			buildPhases = (
+				BC0280752C9BCD960039D3CE /* Sources */,
+				BC0280762C9BCD960039D3CE /* Frameworks */,
+				BC0280772C9BCD960039D3CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC02807B2C9BCD960039D3CE /* PBXTargetDependency */,
+			);
+			name = "oc月份无线左右滑动UITests";
+			productName = "oc月份无线左右滑动UITests";
+			productReference = BC0280792C9BCD960039D3CE /* oc月份无线左右滑动UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC02804C2C9BCD8A0039D3CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					BC0280532C9BCD8A0039D3CE = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					BC02806E2C9BCD950039D3CE = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = BC0280532C9BCD8A0039D3CE;
+					};
+					BC0280782C9BCD960039D3CE = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = BC0280532C9BCD8A0039D3CE;
+					};
+				};
+			};
+			buildConfigurationList = BC02804F2C9BCD8A0039D3CE /* Build configuration list for PBXProject "oc月份无线左右滑动" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC02804B2C9BCD8A0039D3CE;
+			productRefGroup = BC0280552C9BCD8A0039D3CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC0280532C9BCD8A0039D3CE /* oc月份无线左右滑动 */,
+				BC02806E2C9BCD950039D3CE /* oc月份无线左右滑动Tests */,
+				BC0280782C9BCD960039D3CE /* oc月份无线左右滑动UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC0280522C9BCD8A0039D3CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC0280672C9BCD940039D3CE /* LaunchScreen.storyboard in Resources */,
+				BC0280642C9BCD940039D3CE /* Assets.xcassets in Resources */,
+				BC0280622C9BCD8A0039D3CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC02806D2C9BCD950039D3CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC0280772C9BCD960039D3CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC0280502C9BCD8A0039D3CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC02805F2C9BCD8A0039D3CE /* ViewController.m in Sources */,
+				BC0280592C9BCD8A0039D3CE /* AppDelegate.m in Sources */,
+				BC02806A2C9BCD950039D3CE /* main.m in Sources */,
+				BC02805C2C9BCD8A0039D3CE /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC02806B2C9BCD950039D3CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC0280742C9BCD960039D3CE /* oc________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC0280752C9BCD960039D3CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC0280802C9BCD960039D3CE /* oc________UITestsLaunchTests.m in Sources */,
+				BC02807E2C9BCD960039D3CE /* oc________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC0280712C9BCD960039D3CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC0280532C9BCD8A0039D3CE /* oc月份无线左右滑动 */;
+			targetProxy = BC0280702C9BCD960039D3CE /* PBXContainerItemProxy */;
+		};
+		BC02807B2C9BCD960039D3CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC0280532C9BCD8A0039D3CE /* oc月份无线左右滑动 */;
+			targetProxy = BC02807A2C9BCD960039D3CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC0280602C9BCD8A0039D3CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC0280612C9BCD8A0039D3CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC0280652C9BCD940039D3CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC0280662C9BCD940039D3CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC0280812C9BCD960039D3CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BC0280822C9BCD960039D3CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC0280842C9BCD960039D3CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "oc月份无线左右滑动/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "wangyusong.oc--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC0280852C9BCD960039D3CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "oc月份无线左右滑动/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "wangyusong.oc--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BC0280872C9BCD960039D3CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "wangyusong.oc--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/oc月份无线左右滑动.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/oc月份无线左右滑动";
+			};
+			name = Debug;
+		};
+		BC0280882C9BCD960039D3CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "wangyusong.oc--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/oc月份无线左右滑动.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/oc月份无线左右滑动";
+			};
+			name = Release;
+		};
+		BC02808A2C9BCD960039D3CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "wangyusong.oc--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "oc月份无线左右滑动";
+			};
+			name = Debug;
+		};
+		BC02808B2C9BCD960039D3CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "wangyusong.oc--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "oc月份无线左右滑动";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC02804F2C9BCD8A0039D3CE /* Build configuration list for PBXProject "oc月份无线左右滑动" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC0280812C9BCD960039D3CE /* Debug */,
+				BC0280822C9BCD960039D3CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC0280832C9BCD960039D3CE /* Build configuration list for PBXNativeTarget "oc月份无线左右滑动" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC0280842C9BCD960039D3CE /* Debug */,
+				BC0280852C9BCD960039D3CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC0280862C9BCD960039D3CE /* Build configuration list for PBXNativeTarget "oc月份无线左右滑动Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC0280872C9BCD960039D3CE /* Debug */,
+				BC0280882C9BCD960039D3CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC0280892C9BCD960039D3CE /* Build configuration list for PBXNativeTarget "oc月份无线左右滑动UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC02808A2C9BCD960039D3CE /* Debug */,
+				BC02808B2C9BCD960039D3CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC02804C2C9BCD8A0039D3CE /* Project object */;
+}
